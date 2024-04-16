@@ -12,7 +12,7 @@
 body {
     min-height: 100vh;
     display: flex;
-    background-image: url('assets/images/background.jpg'); /* Path to your local image file */
+    background-image: url('../images/background.jpg'); /* Path to your local image file */
     background-size: cover; /* Cover the entire background */
     background-repeat:repeat;
     flex-direction: column;
@@ -28,7 +28,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px rgba(56, 56, 56, 0.425);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,9 +37,9 @@ header {
 
 /* Main content */
 main {
-    background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 80px;
 }
 
 /* Footer */
@@ -56,10 +56,6 @@ footer {
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
-    text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    font-size: 110%;
-    color: rgba(56, 56, 56, 0.822);
     align-items: center;
     text-align: center;
 }
@@ -95,14 +91,69 @@ footer {
     font-size: 110%;
     color: rgba(56, 56, 56, 0.822);
 }
-.socialmedia-icon {
+.socialmedia-icon1, .socialmedia-icon2 {
     max-width: 50px;
 
 }
 
 .logo-header {
-    max-width: 300px;
+    max-width: 200px;
     padding-top: 1%;
     padding-bottom: 1%;
+    align-items: baseline;
 }
 
+/* Media query for tablets */
+@media screen and (min-width: 768px) {
+/*header*/
+    header {
+        padding-left: 1rem;
+    }
+
+    .logo-header {
+        padding-right: 1rem;
+    }
+
+    .header-nav {
+        display: block;
+        position: relative;
+        background-color:transparent;
+        box-shadow: none;
+        padding: 0;
+    }
+
+    #menu {
+        display: flex;
+        letter-spacing: 0px;
+    }
+    
+    #menu > li {
+        padding: 0% 1%;
+        display: inline-block;
+        margin: 0;
+        text-align: center;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    .nav-element {
+        font-size: 80%;
+        font-weight: 600;
+        display: inline-block;
+        vertical-align: middle;
+        align-items: end;
+    }
+    
+    .socialmedia-icon1,.socialmedia-icon2 {
+        min-width: 20px;
+        min-height: 20px;
+    }
+
+    .socialmedia-icon1 {
+        padding-left: 20px;
+    }
+    
+
+}
