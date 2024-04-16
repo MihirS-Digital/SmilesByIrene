@@ -20,7 +20,13 @@ body {
 
 /* Header */
 header {
-    background-color: lightcoral;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    background-color: rgba(211, 211, 211, 0.815);
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
 }
 
 /* Main content */
