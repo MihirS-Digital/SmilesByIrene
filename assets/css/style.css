@@ -34,3 +34,46 @@ main {
 footer {
     background-color: orange;
 }
+
+/* Styles for Nav elements */
+.div-headerlogo {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.div-headernav,
+.div-headersocial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-headernav {
+    flex-wrap: nowrap;
+}
+
+.div-headersocial {
+    margin-right: 30px;
+}
+
+.nav-element {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-stretch: expanded;
+    color: rgba(56, 56, 56, 0.822);
+    text-decoration: none;
+    margin: 10px;
+    white-space: nowrap;
+}
+
+.socialmedia-icon {
+    text-decoration: none;
+    margin: 5px; /* Adjust margin for social media icons */
+}
+
+.logo-header {
+    max-width: 100px;
+}
