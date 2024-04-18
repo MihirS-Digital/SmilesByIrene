@@ -48,7 +48,7 @@ header {
 }
 
 #menu {
-    font-size: 110%;
+    font-size: 100%;
     letter-spacing: 4px;
     list-style-type: none;
 }
@@ -76,7 +76,7 @@ header {
     text-decoration: none;
     font-family: "Raleway", sans-serif;
     font-size: 110%;
-    color: rgba(56, 56, 56, 0.822);
+    color: rgba(56, 56, 56, 1);
 }
 
 .socialmedia-icon1,.socialmedia-icon2 {
@@ -113,7 +113,7 @@ main {
 .div-abouttext {
     font-family: "Raleway", sans-serif;
     font-size: 100%;
-    color: rgba(56, 56, 56, 0.822);
+    color: rgba(56, 56, 56, 1);
     max-width: 750px;
     min-width: 200px;
     vertical-align: bottom;
@@ -173,7 +173,7 @@ footer {
     margin-top: 20px;
     font-family: "Raleway", sans-serif;
     font-size: 100%;
-    color: rgba(56, 56, 56, 0.822);
+    color: rgba(56, 56, 56, 1);
     padding-bottom: 5px;
 }
 
@@ -197,7 +197,7 @@ ul {
     text-decoration: none;
     font-family: "Raleway", sans-serif;
     font-size:90%;
-    color: rgba(56, 56, 56, 0.822);
+    color: rgba(56, 56, 56, 1);
 }
 
 
@@ -229,6 +229,7 @@ ul {
         padding: 0;
         letter-spacing: 0px;
         vertical-align: middle;
+        font-size: 140%;
     }
     
     #menu > li {
@@ -277,7 +278,7 @@ ul {
         line-height: 1.6;
         
     }
-    
+
     .h2-meetirene, .h3-dentalservices {
         margin-top: 10px; /* Adjust the spacing between headings */
         font-size: 120%;
@@ -315,7 +316,7 @@ ul {
     .section-dentalservices {
         display: flex;
         grid-template-columns: 1fr 1fr 1fr;
-        color: rgba(56, 56, 56, 0.822);
+        color: rgba(56, 56, 56, 1);
         text-align: center;
     }
     
@@ -406,7 +407,7 @@ ul {
     
     .div-abouttext {
         font-family: "Raleway", sans-serif;
-        color: rgba(56, 56, 56, 0.822);
+        color: rgba(56, 56, 56, 1);
         max-width: 750px;
         min-width: 620px;
         vertical-align: bottom;
@@ -459,7 +460,7 @@ ul {
 /* Styles for the "meetirene.html" page*/
 .presection-meetirene {
     font-family: "Raleway", sans-serif;
-    color: rgba(56, 56, 56, 0.822);
+    color: rgba(56, 56, 56, 1);
     background-color: rgba(211, 211, 211, 0.800);
     backdrop-filter: blur(10px);
     text-align: center;
@@ -475,19 +476,23 @@ ul {
     justify-content: center;
     flex-direction: column;
     font-family: "Raleway", sans-serif;
-    color: rgba(56, 56, 56, 0.822);
+    color: rgba(56, 56, 56, 1);
     background-color: rgba(211, 211, 211, 0.800);
     backdrop-filter: blur(10px);
     margin-right: 20px;
     margin-left: 20px;
     margin-bottom: 1%;
-    padding: 5% 5%;
+    padding: 20px 20px;
 }
 
 .text-meetirene{
     margin-top: 5px; /* Adjust the spacing between paragraphs */
     font-size: 100%;
     line-height: 1.6;
+}
+
+.h1-meetirene {
+    padding-top: 20px;
 }
 
 .h2-meetirene, .h3-dentalservices {
@@ -513,7 +518,7 @@ ul {
 /* Styles for "myservices.html" page*/
 .section-predentalservices{
     font-family: "Raleway", sans-serif;
-    color: rgba(56, 56, 56, 0.822);
+    color: rgba(56, 56, 56, 1);
     background-color: rgba(211, 211, 211, 0.800);
     backdrop-filter: blur(10px);
     text-align: center;
@@ -637,7 +642,7 @@ input[type="submit"]{
 .section-predentalproducts, .section-pretestimonials {
     display: flex;
     font-family: "Raleway", sans-serif;
-    color: rgba(56, 56, 56, 0.822);
+    color: rgba(56, 56, 56, 1);
     background-color: rgba(211, 211, 211, 0.800);
     backdrop-filter: blur(10px);
     margin: 0px 20px;
@@ -658,7 +663,7 @@ input[type="submit"]{
     justify-content: space-between; 
     max-width: 525px;
     font-family: "Raleway", sans-serif;
-    color: rgba(56, 56, 56, 0.822);
+    color: rgba(56, 56, 56, 1);
     text-align: center; 
     flex-wrap: wrap;  
 }
@@ -668,7 +673,7 @@ input[type="submit"]{
     justify-content: space-between; 
     max-width: 525px;
     font-family: "Raleway", sans-serif;
-    color: rgba(56, 56, 56, 0.822);
+    color: rgba(56, 56, 56, 1);
     text-align: center;
     flex-wrap: wrap;  
 }
@@ -696,7 +701,8 @@ input[type="submit"]{
     height: auto;
 }
 
-.h2-dentalproducts {
+.h1-dentalproducts {
+    font-size: 250%;
     text-align: center;
     width: 100%;
     margin-bottom: 20px;
@@ -730,7 +736,7 @@ input[type="submit"]{
     justify-content: center;
     flex-direction: column;
     font-family: "Raleway", sans-serif;
-    color: rgba(56, 56, 56, 0.822);
+    color: rgba(56, 56, 56, 1);
     background-color: rgba(211, 211, 211, 0.800);
     backdrop-filter: blur(10px);
     margin-right: 20px;
