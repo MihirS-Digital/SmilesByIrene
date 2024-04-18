@@ -723,7 +723,21 @@ input[type="submit"]{
     text-align: center;
 }
 
-
+/*Syles for the blog.html page*/
+.section-blog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Raleway", sans-serif;
+    color: rgba(56, 56, 56, 0.822);
+    background-color: rgba(211, 211, 211, 0.800);
+    backdrop-filter: blur(10px);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 1%;
+    padding: 5% 5%;
+}
 
 
 
