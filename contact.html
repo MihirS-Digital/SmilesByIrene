@@ -24,36 +24,79 @@
     <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars fa-fade"></i></label>
         <nav class="header-nav">
             <ul id="menu">
-                li><a href="index.html" aria-label="Go to the home page" class="nav-element">Home</a></li>
+                <li><a href="index.html" aria-label="Go to the home page" class="nav-element">Home</a></li>
                 <li><a href="meetirene.html" aria-label="My Story" class="nav-element">Meet Irene</a></li>
                 <li><a href="myservices.html" aria-label="Explore available Dental Services" class="nav-element">My Services</a></li>
                 <li><a href="dentalproducts.html" aria-label="See my recommended products" class="nav-element">Dental Products</a></li>
                 <li><a href="#testimonials" aria-label="Read testimonials from my patients" class="nav-element">Testimonials</a></li>
                 <li><a href="#blog" aria-label="Explore my blog" class="nav-element">Blog</a></li>
-                <li><a href="contact.html" aria-label="Go to contact information" class="nav-element">Contact</a></li>    
+                <li><a href="contact.html" aria-label="Go to contact information" class="nav-element">Contact</a></li>  
             </ul>
         </nav>
 </header>
 
     <!--Main-->
 <main>
-    <section class="section-abouttext">
-        <div class="div-portrait">
-            <img src="assets/images/IreneSCRUBS2.png" class="portrait" alt="portrait of dental practitionerS">
-        </div>
-        <div class="div-abouttext">
-            <h1 class="abouttext-h1font">Irene Lodi</h1>
-            <h2 class="abouttext-h2font">Hello, I’m Irene - Your Dental Hygienist & Therapist</h2>
-            <p class="abouttext-pfont">At SmilesbyIrene, you'll find a dedicated Dental Hygienist and Therapist committed to your smile. With a First Class Honours in Oral Health Science from the University of Manchester and ongoing studies at King's College London, I offer top-tier care across periodontology, restorative dentistry, and paediatrics for both NHS and private patients.
-                </p>
-                <h3 class="abouttext-h2font">Why choose me?</h3>
-                <ul class="abouttext-pfont">
-                    <li><strong>Expert Care:</strong> I provide comprehensive services in aesthetic and functional dental treatments.</li>
-                    <li><strong>Continuous Learning:</strong> Stay ahead with up-to-date techniques from my continuous professional development in the latest dental advancements.</li>
-                    <li><strong>Personalised Treatment:</strong> My patient-centred approach ensures tailored dental solutions just for you.</li>
-                </ul>
-                <p class="abouttext-pfont">Join me on a journey to optimal oral health. Experience compassionate, expert care designed around your unique needs. At SmilesbyIrene, creating your beautiful smile is our greatest accomplishment.</p>
-        </div>
+    <section class="section-form1">
+        <h2>Dental Enquiry Form</h2>
+        <form action="/submit-your-enquiry" method="post">
+            <!-- Personal Information Section -->
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required><br><br>
+            
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required><br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Enquiry Type Checkboxes -->
+            <fieldset>
+                <legend>Select Enquiry Type:</legend>
+                <input type="checkbox" id="gumDisease" name="enquiryType" value="Gum Disease Treatment">
+                <label for="gumDisease">Gum Disease Treatment</label><br>
+
+                <input type="checkbox" id="dentalHygiene" name="enquiryType" value="Dental Hygiene & Airflow">
+                <label for="dentalHygiene">Dental Hygiene & Airflow</label><br>
+
+                <input type="checkbox" id="dentalRestorations" name="enquiryType" value="Dental Restorations & Aesthetics">
+                <label for="dentalRestorations">Dental Restorations & Aesthetics</label>
+            </fieldset><br>
+
+            <!-- Dropdown Menu for Treatments -->
+            <label for="treatment">Choose a Treatment:</label>
+            <select id="treatment" name="treatment">
+                <option value="periodontalCleaning">Periodontal Cleaning (Root Surface Debridement)</option>
+                <option value="periodontalMaintainence">Periodontal Maintainence</option>
+                <option value="routineScale">Routine Scale and Polish Treatments</option>
+                <option value="airflowTreatment">Airflow Treatment</option>
+                <option value="oralHealthAssessment">Oral Health Assessments and Oral Hygiene Plans</option>
+                <option value="posteriorComposites">Posterior Composites</option>
+                <option value="anteriorCompositeBonding">Anterior Composite Bonding</option>
+                <option value="fluorideTreatment">Fluoride Treatment</option>
+                <option value="teethWhitening">Teeth Whitening</option>
+            </select><br><br>
+
+            <!-- Enquiry Details -->
+            <label for="details">Details of Your Enquiry:</label><br>
+            <textarea id="details" name="details" rows="4" cols="50"></textarea><br><br>
+
+            <!-- Consent Checkboxes -->
+            <input type="checkbox" id="consentPrivacy" name="consentPrivacy" required>
+            <label for="consentPrivacy">I consent to my personal data being collected and stored as per the Privacy Policy.</label><br>
+
+            <input type="checkbox" id="consentMarketing" name="consentMarketing">
+            <label for="consentMarketing">I consent to my personal data being collected and stored for the purpose of marketing communications.</label><br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Submit Enquiry">
+        </form>
     </section>
 </main>
     <!--Footer-->
