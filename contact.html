@@ -36,25 +36,22 @@
 </header>
 
     <!--Main-->
-<main>
+<main class="form-main">
     <section class="section-form1">
-        <h2>Dental Enquiry Form</h2>
+        <h2 class="h2-form">Dental Enquiry Form</h2>
         <form action="/submit-your-enquiry" method="post">
             <!-- Personal Information Section -->
-            <label for="firstName">First Name:</label>
-            <input type="text" id="firstName" name="firstName" required><br><br>
-            
-            <label for="lastName">Last Name:</label>
-            <input type="text" id="lastName" name="lastName" required><br><br>
+            <label for="firstName">Full Name:</label>
+            <input type="text" id="firstName" name="firstName" class="form-smalltextarea" required><br><br>
 
             <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required><br><br>
+            <input type="email" id="email" name="email" class="form-smalltextarea" required><br><br>
 
             <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone" required><br><br>
+            <input type="tel" id="phone" name="phone" class="form-smalltextarea" required><br><br>
 
             <label for="dob">Date of Birth:</label>
-            <input type="date" id="dob" name="dob" required><br><br>
+            <input type="date" id="dob" name="dob" class="form-smalltextarea" required><br><br>
 
             <!-- Enquiry Type Checkboxes -->
             <fieldset>
@@ -71,7 +68,7 @@
 
             <!-- Dropdown Menu for Treatments -->
             <label for="treatment">Choose a Treatment:</label>
-            <select id="treatment" name="treatment">
+            <select id="treatment" name="treatment" class="form-dropdownmenu">
                 <option value="periodontalCleaning">Periodontal Cleaning (Root Surface Debridement)</option>
                 <option value="periodontalMaintainence">Periodontal Maintainence</option>
                 <option value="routineScale">Routine Scale and Polish Treatments</option>
@@ -85,7 +82,7 @@
 
             <!-- Enquiry Details -->
             <label for="details">Details of Your Enquiry:</label><br>
-            <textarea id="details" name="details" rows="4" cols="50"></textarea><br><br>
+            <textarea class="form-textarea" id="details" name="details" rows="4" cols="50"></textarea><br><br>
 
             <!-- Consent Checkboxes -->
             <input type="checkbox" id="consentPrivacy" name="consentPrivacy" required>

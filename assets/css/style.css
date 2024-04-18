@@ -330,6 +330,24 @@ ul {
         padding: 2% 2%;
     }
 
+    /* Media query specifically for contact.html*/
+    .section-form1 {
+        margin: 0px 0px;
+        padding: 40px 40px;
+        max-width: 768px;
+        justify-content: center;
+    }
+
+    .form-textarea {
+        width: 100%;
+        height: 200px;
+        padding: 5%;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border: 2px solid #6b6b6b;
+        border-radius: 10px;
+    }
+    
 }
 
 /* media query for laptops*/
@@ -488,11 +506,65 @@ ul {
 }
 
 /* styling for contact.html*/
+
+.form-main{
+    display: flex;
+    justify-content: center;
+}
+
 .section-form1 {
     background-color: rgba(211, 211, 211, 0.800);
     backdrop-filter: blur(10px);
     font-family: "Raleway", sans-serif;
-    margin: 20px 20px;
-    padding: 5% 5%;
     width: 100%;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    justify-content: center;
+    align-content: center;
 }
+
+.h2-form {
+    font-size: 150%;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.form-textarea {
+    width: 100%;
+    padding: 0px 20px;
+    height: 150px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #6b6b6b;
+    border-radius: 10px;
+}
+
+.form-smalltextarea {
+    width: 100%;
+    height: 30px;
+    border: 2px solid #6b6b6b;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+
+.form-dropdownmenu {
+    height: 40px;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid #6b6b6b;
+}
+
+input[type="submit"]{
+    width: 80%; 
+    padding: 12px; 
+    background-color: rgb(80, 80, 80);
+    color: white;
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    display: block; 
+    margin: 20px auto; 
+    font-size: 120%; 
+    font-weight: 700;
+}
+
