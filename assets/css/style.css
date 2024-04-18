@@ -331,8 +331,12 @@ ul {
     }
 
     /* Media query specifically for contact.html*/
-    .section-form1 {
-        margin: 0px 0px;
+    .div-socialmedia{
+        max-width: 768px;
+    }
+
+    .div-form1 {
+        margin: 0px 20px;
         padding: 40px 40px;
         max-width: 768px;
         justify-content: center;
@@ -507,17 +511,20 @@ ul {
 
 /* styling for contact.html*/
 
-.form-main{
+.section-contact{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: 0px 20px;
+    font-family: "Raleway", sans-serif;
 }
 
-.section-form1 {
+.div-socialmedia, .div-form1 {
     background-color: rgba(211, 211, 211, 0.800);
     backdrop-filter: blur(10px);
-    font-family: "Raleway", sans-serif;
     width: 100%;
-    margin: 20px 20px;
+    margin: 10px 20px;
     padding: 20px 20px;
     justify-content: center;
     align-content: center;
