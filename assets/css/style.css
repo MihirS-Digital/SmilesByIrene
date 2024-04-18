@@ -353,6 +353,36 @@ ul {
         border-radius: 10px;
     }
     
+    /* Media query specifically for dentalproducts.html*/
+    
+    main .section-dentalproducts1 {
+        display: flex;
+        justify-content: space-between; 
+        max-width: 1440px;
+        text-align: center; 
+        margin-left: 10%;  
+        margin-right: 10%;
+        flex-wrap: wrap;  
+    }
+    
+    main .section-dentalproducts2 {
+        display: flex;
+        justify-content: space-between; 
+        max-width: 1440px;
+        text-align: center;
+        margin-left: 10%;  
+        margin-right: 10%;
+        flex-wrap: wrap;  
+    }
+    
+    main .div-dentalproducts1, main .div-dentalproducts2, main .div-dentalproducts3 {
+        flex: 1 1 calc(33.33% - 2%); 
+        padding: 10px;  
+        margin: 1%;
+        box-sizing: border-box; 
+        border-radius: 10px;
+    }
+    
 }
 
 /* media query for laptops*/
@@ -591,5 +621,79 @@ input[type="submit"]{
     font-weight: 700;
 }
 
+/* Styles for the dentalproducts.html page*/
+
+.section-predentalproducts, .section-pretestimonials {
+    display: flex;
+    font-family: "Raleway", sans-serif;
+    color: rgba(56, 56, 56, 0.822);
+    background-color: rgba(211, 211, 211, 0.800);
+    backdrop-filter: blur(10px);
+    margin: 0px 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-dentalproducts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-dentalproducts1{
+    display: flex;
+    justify-content: space-between; 
+    max-width: 525px;
+    font-family: "Raleway", sans-serif;
+    color: rgba(56, 56, 56, 0.822);
+    text-align: center; 
+    flex-wrap: wrap;  
+}
+
+.section-dentalproducts2 {
+    display: flex;
+    justify-content: space-between; 
+    max-width: 525px;
+    font-family: "Raleway", sans-serif;
+    color: rgba(56, 56, 56, 0.822);
+    text-align: center;
+    flex-wrap: wrap;  
+}
+
+.div-dentalproducts1, .div-dentalproducts2, .div-dentalproducts3 {
+    background-color: rgba(211, 211, 211, 0.800);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    margin: 10px 30px;  
+    box-sizing: border-box; 
+    border-radius: 10px;
+}
+
+.section-dentalproducts1, .section-dentalproducts2 {
+    justify-content: space-between; 
+}
+
+.img-dentalproducts {
+    width: 100px;
+    height: 100px;
+}
+
+.img-dentalproductsnarrow {
+    width: 50px;
+    height: auto;
+}
+
+.h2-dentalproducts {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.p-dentalproducts {
+    text-align: center;
+    margin-top: 20px;
+}
 
 
