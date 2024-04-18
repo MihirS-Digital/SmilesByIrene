@@ -386,7 +386,7 @@ ul {
     /* Media query specifically for testimonials.html*/
 
     main .section-testimonials {
-        margin: 20px 100px
+        margin: 20px 100px;
     }
     
 }
@@ -447,7 +447,12 @@ ul {
         margin-bottom: 1%;
         text-align: center;
     }
-    
+
+        /* Media query specifically for testimonials.html*/
+
+        main .section-testimonials {
+            margin: 20px 250px;
+        }
 }
 
 
@@ -717,6 +722,8 @@ input[type="submit"]{
     justify-content: center;
     text-align: center;
 }
+
+
 
 
 
