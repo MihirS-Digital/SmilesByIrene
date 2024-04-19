@@ -1,39 +1,52 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Smiles By Irene
 
-Welcome,
+Welcome to the official website of "Smiles By Irene," a dedicated platform for dental hygiene and therapy managed by Irene Lodi. This site is crafted to serve a diverse audience including patients, dental professionals, and dental students, providing a comprehensive look into Irene's practice and the broader field of dental care.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Introduction
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+The "Smiles By Irene" website is designed to be a central hub for engaging with the services offered by Irene Lodi, a seasoned Dental Hygienist and Therapist. It provides valuable information on various dental procedures, access to recommended dental products, and direct communication with Irene through an enquiry form.
 
-## Codeanywhere Reminders
+## Website Structure
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+The website consists of several key pages:
 
-`python3 -m http.server`
+- **Home Page (`index.html`)**: The starting point of the website, introducing visitors to the site.
+- **Meet Irene (`meetirene.html`)**: Detailed background on Irene Lodi, her qualifications, experience, and professional goals.
+- **My Services (`services.html`)**: Information on services provided, ranging from Gum Disease Treatment to Dental Restorations & Airflow, coupled with educational content about these procedures.
+- **Dental Products (`dentalproduct.html`)**: A curated selection of dental products recommended by Irene, featuring links to purchase these items through Amazon wish lists.
+- **Testimonials (`testimonials.html`)**: Reviews and experiences shared by patients.
+- **Blog (`blog.html`)**: Currently under construction, this section will feature articles and updates from Irene.
+- **Contact (`contact.html`)**: Contains a form for direct enquiries and links to Irene's social media profiles on Instagram and LinkedIn.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Design
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+The website sports a modern iOS-inspired aesthetic with silver and grey tones. It features:
+- A collage of background images sourced from Pexels.
+- A consistent use of an RGBA colour scheme (211, 211, 211, 0.900) for most sections, adding a blur effect with `backdrop-filter: blur(10px);`.
+- Dark grey text (`color: rgba(56, 56, 56, 1)`) across the website, with white text in the testimonials section to enhance readability.
 
-`http_server`
+Initial sketches were created using Samsung Notes to conceptualize the layout and interface of the website.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## User Experience
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+Visitors to the website are guided through a seamless journey where they can learn about Irene Lodi, explore the services offered, view recommended dental products, read testimonials from other patients, and make enquiries directly through the contact page.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Technologies Used
 
-To log into the Heroku toolbelt CLI:
+- **DALL-E 3**: Used to generate the initial tooth image for the Smiles by Irene logo.
+- **Paint.net & PowerPoint**: Tools for extensive editing of the logo and other images.
+- **Canva**: Used to create visual content for the `meetirene.html` page.
+- **Visual Studio Code with Live Server**: Enabled real-time testing and viewing of the website during development.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Deployment
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The website is hosted on GitHub Pages and can be accessed through the following URL: [Smiles By Irene](https://mihirs-digital.github.io/SmilesByIrene/). For local deployment, ensure all files are downloaded and relative paths are maintained to preserve the site's structure and functionality.
 
----
+## Future Enhancements
 
-Happy coding!
+The blog section is in development, intended to provide additional insights and updates from Irene's practice. Further expansion and functionality enhancements are planned to keep the website up-to-date with the latest in dental care and patient services.
+
+## Acknowledgements
+
+Special thanks to all the tools and individuals who have contributed to the development of this project. Personal acknowledgements and credits will be added by the project manager.
+
