@@ -17,9 +17,9 @@ The website consists of several key pages:
 - **Home Page (`index.html`)**: The starting point of the website, introducing visitors to the site. See screenshot: ![Home Page Screenshot](image.png)
 - **Meet Irene (`meetirene.html`)**: Detailed background on Irene Lodi, her qualifications, experience, and professional goals. ![Meet Irene Screenshot](image-1.png)
 - **My Services (`services.html`)**: Information on services provided, ranging from Gum Disease Treatment to Dental Restorations & Airflow, coupled with educational content about these procedures. ![Dental Services Screenshot](image-2.png)
-- **Dental Products (`dentalproduct.html`)**: A curated selection of dental products recommended by Irene, featuring links to purchase these items through Amazon wish lists.![Dental Products Screenshot](image-3.png)
+- **Dental Products (`dentalproduct.html`)**: A curated selection of dental products recommended, featuring links to purchase these items through Amazon wish lists.![Dental Products Screenshot](image-3.png)
 - **Testimonials (`testimonials.html`)**: Reviews and experiences shared by patients.![Testimonials Screenshot](image-4.png)
-- **Blog (`blog.html`)**: Currently under construction, this section will feature articles and updates from Irene. ![Blog Screenshot](image-5.png)
+- **Blog (`blog.html`)**: Currently under construction, this section will feature articles and updates. ![Blog Screenshot](image-5.png)
 - **Contact (`contact.html`)**: Contains a form for direct enquiries and links to Irene's social media profiles on Instagram and LinkedIn. ![Contact Screenshot](image-15.png)
 
 ## Features
